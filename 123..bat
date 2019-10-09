@@ -1,0 +1,1 @@
+ffmpeg -i 10000000_1414887731976247_5972481078323848369_n.mp4 -s 800x600 -b:v 500k -vcodec libx264 -r 29.97 -acodec libvo_aacenc -b:a 48k -ac 2 -ar 44100 -profile:v baseline -level 3.0 -f mp4 -y will.mp4
